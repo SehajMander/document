@@ -1,0 +1,328 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    font size: 24px;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: end;
+    gap: 5vw;
+    padding-right: 5vh;
+    padding-top: 3vh;
+    color: 000000 ;
+    font-: Roboto;
+}
+.container{
+    display: flex;
+    height:100vh;
+}
+
+.left-side{
+   width:35%;
+   margin-left: 10vw;
+   margin-right: 10vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end ;
+   gap: 35vh;
+   padding-bottom: 5vh;
+   margin-top: 5vh;
+}
+
+.right-side{
+     width: 45%;
+     background-color: #d3ace4;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh ;
+}
+
+.buttons{
+   display: flex;
+   gap: 5vw;
+   font-size: 0.7rem; 
+}
+
+.hire-me{
+   background-color: #a725e4;
+   padding: 2vh 3vw;
+   color:#fff;
+   font-size: 1rem;
+}
+.view-more{
+   border: 1px solid black;
+   padding: 2vh 3vw;
+   color:#a725e4;
+   font-size: 1rem;
+}
+
+.text1{
+   font-size: 3rem;
+   margin-top: 5vh;
+}
+
+.text2{
+   font-size: 3rem;
+   color: rgb(145, 58, 196);
+
+}
+
+.main-text{
+   font-size: 1.5rem;
+   color: rgb(66, 58, 58);
+}
+
+.socials{
+   display:flex;
+   gap: 1.5vw;
+}
+
+
+.ornament2{
+   position: absolute;
+   left: 52%;
+   top: 58%;
+}
+
+.main-img{
+   position: absolute;
+   left: 65%;
+   top: 4%;
+}
+
+.ellipse{
+    position: absolute;
+    top: 50%;
+}
+.ornament3{
+   position: absolute;
+   top: 110%;
+   left: 15%;
+}
+
+.left-side1{
+   padding-left: 10vw;
+   padding-bottom: 20vh;
+   padding-top: 10vh;
+   justify-content: flex-start;
+}
+
+.img{
+    top: 150%;
+    left: 30%;
+}
+
+
+.right-side1{
+   padding-left: 50vw;
+   justify-content: flex-start;
+   padding-bottom: 20vh;
+   padding-top: 10vh;
+}
+
+.heading{
+   font-size: 2.5rem;
+}
+
+.content1{
+   font-size: 1.5rem;
+}
+
+.exp{
+   display: flex;
+   gap: 1vw;
+}
+
+.exp1, .exp2{
+   font-size: 3rem;
+   color: #9E00D6;
+   font-weight: bold;
+
+}
+
+.exp1-content, .exp2-content{
+   font-size: 1rem;
+   }
+
+   .button2{
+      font-size: 1.5rem;
+      background-color: #a725e4;
+      padding: 2vh 3vw;
+      color:#fff;
+      padding: 22px;
+      box-shadow: -7px -4px 10px rgba(70, 69, 69, 0.29),
+      7px 4px 10px rgba(0, 0, 0, 0.28);
+      border-radius: 10px;
+  }
+
+  .skills{
+     font-size: 2.7rem;
+     text-align: center;
+     color: rgb(75, 72, 72);
+  }
+
+  .cards{
+     padding-top: 10vh;
+     padding-left: 18vw;
+     display: flex;
+     gap: 10vw;
+  }
+
+  .card1{
+   background-color: rgb(211, 159, 241);
+   height: 40vh;
+   width: 18vw;
+   border-radius: 10px;
+  }
+
+  .card2{
+   background-color: rgb(245, 240, 240);
+   height: 40vh;
+   width: 18vw;
+   border-radius: 10px;
+  }
+
+  .card3{
+   background-color: rgb(211, 159, 241);
+   height: 40vh;
+   width: 18vw;
+   border-radius: 10px;
+  }
+
+  .card1text, .card2text, .card3text{
+     margin-top: 10vh;
+     margin-left: 2vw;
+     font-size: 2.7rem;
+  } 
+
+  .arrow1, .arrow2, .arrow3{
+   margin-top: 6vh;
+   margin-left: 2vw;
+   font-size: 2rem;
+   color: #a725e4;
+  }
+
+  .projects{
+   padding-top: 15vh;
+   font-size: 2.7rem;
+   text-align: center;
+}
+
+.projectcards{
+   padding-top: 5vh;
+   padding-left: 20vw;
+   display: flex;
+   gap: 20vw;
+   
+}
+
+.pcard1, .pcard2{
+   background-color: #f9f9f9;
+   height: 40vh;
+   width: 20vw;
+   border-radius: 10px;
+   box-shadow: -7px -4px 10px rgba(70, 69, 69, 0.29),
+   7px 4px 10px rgba(0, 0, 0, 0.28);
+}
+
+.p1details, .p2details{
+   font-size: 1.5rem;
+   font-weight: bold;
+   margin-top: 20vh;
+   margin-left: 2vw;
+}
+
+.p1details2, .p2details2{
+   margin-left: 2vw;
+}
+
+.p1details3, .p2details3{
+   margin-left: 2vw;
+   color: red;
+}
+
+.form{
+   padding-top: 15vh;
+   font-size: 2.7rem;
+   text-align: center;
+}
+
+
+
+.container4{
+    align-items: center;
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    padding-left: 10vw;
+}
+
+.user-details .input-box input{
+    height: 45px;  
+    width: 90%;
+    background: #cd86e9;
+    border-color: #cd86e9;
+}
+
+.user-details .message-box input{
+    background:#cd86e9;
+    border-color: #cd86e9;
+    width: 90%;
+    height:25vh;
+}
+
+.user-details .input-box .name{
+    color: rgb(87, 86, 86);
+}
+
+.user-details .input-box .email{
+    color: rgb(87, 86, 86);
+}
+
+.user-details .input-box .subject{
+    color: rgb(87, 86, 86);
+}
+
+.user-details .message-box .message{
+    color: rgb(87, 86, 86);
+}
+
+form .button input{
+    width: 30%;
+    height: 5vh;
+    background-color: #a725e4;
+    border-color: #a725e4;
+    color: #fff;
+}
+
+.container5{
+   padding-top: 2vh;
+   padding-bottom: 2vh;
+   background-color: rgb(211, 159, 241);
+}
+
+.footer{
+   text-align: center;
+   font-size: 1.5rem;
+}
+
+.f1{
+   letter-spacing: 2vw;
+}
+
+.f2{
+   display: flex;
+   gap: 3vw;
+   margin-left: 42vw;
+}
+
